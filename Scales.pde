@@ -27,7 +27,7 @@ void scale(int x, int y) {
   curveVertex(50+x, 30+y-15);
   curveVertex(50+x, 30+y-15);
   endShape();
- beginShape();
+  beginShape();
   curveVertex(10+x, 30+y-15);
   curveVertex(10+x, 30+y-15);
   curveVertex(20+x, 37.5+y-15 );
